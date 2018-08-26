@@ -9,10 +9,10 @@ const app = express();
 // const serviceAccount = require("./REPLACE_WITH_SERVICE_ACCOUNT.json");
 
 // TODO: Enter your database url from firebase
-// admin.initializeApp({
-//   credential: admin.credential.cert(serviceAccount),
-//   databaseURL: "https://madden-cfm-9a03a.firebaseio.com/"
-// });
+admin.initializeApp({
+  credential: admin.credential.cert(serviceAccount),
+  databaseURL: "https://madden-cfm-9a03a.firebaseio.com/"
+});
 
 
 app.set('port', (process.env.PORT || 3001));
