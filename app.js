@@ -11,7 +11,7 @@ const app = express();
 // TODO: Enter your database url from firebase
 // admin.initializeApp({
 //   credential: admin.credential.cert(serviceAccount),
-//   databaseURL: "https://<DATABASE_NAME>.firebaseio.com/"
+//   databaseURL: "https://madden-cfm-9a03a.firebaseio.com/"
 // });
 
 
